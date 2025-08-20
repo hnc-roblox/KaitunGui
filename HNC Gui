@@ -1,3 +1,14 @@
+local rs = game:GetService("ReplicatedStorage")
+
+-- Đợi CommF_ có sẵn
+repeat task.wait() until rs:FindFirstChild("Remotes") and rs.Remotes:FindFirstChild("CommF_")
+
+-- Gửi lệnh đổi team sang Hải Quân
+rs.Remotes.CommF_:InvokeServer("SetTeam", "Marines")
+
+-- ⏳ Đợi 5 giây
+task.wait(5)
+
 -- 🌌✨ HNC Hub - Auto Kaitun Menu
 -- By Kaitun
 
