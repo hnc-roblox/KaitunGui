@@ -7,7 +7,7 @@ repeat task.wait() until rs:FindFirstChild("Remotes") and rs.Remotes:FindFirstCh
 rs.Remotes.CommF_:InvokeServer("SetTeam", "Marines")
 
 -- ⏳ Đợi 5 giây
-task.wait(9)
+task.wait(20)
 
 -- 🌌✨ HNC Hub - Auto Kaitun Menu
 -- By Kaitun
