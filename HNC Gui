@@ -6,8 +6,7 @@ local fastMaxScript = loadstring(game:HttpGet("https://raw.githubusercontent.com
 task.wait(2) -- bạn có thể điều chỉnh thời gian chờ tùy script
 
 -- Chạy script tiếp theo (script pase)
-local paseScript = 
-local rs = game:GetService("ReplicatedStorage")
+local paseScript = local rs = game:GetService("ReplicatedStorage")
 
 -- Đợi CommF_ có sẵn
 repeat task.wait() until rs:FindFirstChild("Remotes") and rs.Remotes:FindFirstChild("CommF_")
